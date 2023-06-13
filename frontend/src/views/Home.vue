@@ -7,7 +7,7 @@
         <div id="top"></div>
         <div id="bottom"></div>
         <b-navbar-item id="fontnavbar" class="title is-2" style="color: dodgerblue;">
-          AK MS FTE - Milligram
+          AK - MS - FTE - Milligram
         </b-navbar-item>
       </template>
     </b-navbar>

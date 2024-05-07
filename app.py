@@ -172,7 +172,7 @@ async def upload(
 @app.post("/chat")
 async def chat(prompt: Prompt, azOpenAIClient=Depends(get_openai_client)):
     messages = [
-        {"role": "system", "content": "You are a helpful assistant."},
+        {"role": "system", "content": "Your name is Herbert. You are a helpful assistant. Your answers should be understood by a 6-year-old."},
         {"role": "user", "content": prompt.message}
     ]
 
